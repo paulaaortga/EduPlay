@@ -1,0 +1,120 @@
+.generador-container {
+  padding: 2rem;
+  background: linear-gradient(135deg, #fceabb, #f8b500);
+  min-height: 100vh;
+  font-family: 'Comic Neue', cursive;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+
+.generador-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 3rem;  /* Ajuste de margen superior para mover el título más alto */
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #3b3b98;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.generador-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 600px;  /* Ajuste para hacer la tabla más estrecha */
+  flex-direction: column;
+}
+
+.generador-table {
+  width: 100%;
+  max-width: 400px;  /* Hacemos la tabla más estrecha */
+  margin-left: 6rem;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.generador-table td, .generador-table th {
+  padding: 0.75rem;
+  text-align: left;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+}
+
+.generador-table th {
+  background-color: #ffe082;
+  font-weight: bold;
+  color: #3b3b98;
+}
+
+.generador-select {
+  background-color: white;
+  border: 2px solid #4f46e5;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #333;
+  width: 100%;
+}
+
+.boton-generar {
+  display: block;
+  margin-left: 2rem 0 0 1rem;
+  background-color: #4f46e5;
+  color: white;
+  font-size: 1.1rem;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.boton-generar:hover {
+  background-color: #3b3bbd;
+}
+
+.detalle-actividad {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 700px;
+  margin-top: 2rem;
+}
+
+.botones-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn-opcion {
+  background-color: #4f46e5;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  width: 100%;
+  text-align: left;
+}
+
+.btn-opcion:hover {
+  background-color: #3b3bbd;
+}
